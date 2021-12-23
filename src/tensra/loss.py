@@ -5,7 +5,7 @@ we can use this to adjust the parameters of your network
 
 import numpy as np
 
-from tensor import Tensor
+from .tensor import Tensor
 
 class Loss:
     def loss(self, predicted: Tensor, actual: Tensor) -> float:

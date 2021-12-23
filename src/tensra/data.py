@@ -7,7 +7,7 @@ from typing import Iterator, NamedTuple
 
 import numpy as np
 
-from tensor import Tensor
+from .tensor import Tensor
 
 Batch = NamedTuple("Batch", [("inputs", Tensor), ("targets", Tensor)])
 

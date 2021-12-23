@@ -3,7 +3,7 @@ We use an optimizer to adjust the parameters
 of our network based on the gradients computed
 during backpropagation
 """
-from nn import NeuralNet
+from .nn import NeuralNet
 
 class Optimizer:
     def step(self, net: NeuralNet) -> None:
